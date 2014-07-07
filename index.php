@@ -1,3 +1,3 @@
 <?php
-echo "Test Capistrano";
+echo "Test Capistrano with Yedu";
 ?>
