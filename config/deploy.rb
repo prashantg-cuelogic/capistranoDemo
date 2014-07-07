@@ -1,5 +1,5 @@
 set :application, "capistrano test"
-set :repository,  "git@github.com:prashantg-cuelogic/capistranoDemo.git"
+set :repository,  "https://github.com/prashantg-cuelogic/capistranoDemo.git"
 
 set :user, 'root'
 set :scm, :git
@@ -13,7 +13,7 @@ server "50.17.210.146",:app, :web, :db, :primary => true
 set :ssh_options, { :forward_agent => true}
 ssh_options[:keys] = %w(/opt/lampp/htdocs/capistranoDemo/cuelogic.pem)
 set :keep_releases, 5
-ssh-keygen -t rsa -C "prashant@cuelogic.co.in"
+#ssh-keygen -t rsa -C "prashant@cuelogic.co.in"
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
