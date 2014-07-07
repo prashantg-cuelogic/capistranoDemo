@@ -1,3 +1,3 @@
 <?php
-echo "Test Capistrano with Yedu Completed by Prashant";
+echo "Test Capistrano with Onkar";
 ?>
