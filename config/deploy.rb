@@ -6,7 +6,7 @@ set :scm, :git
 set :deploy_to, "/var/www/html/projects/capistrano"
 set :branch, "master"
 
-set :deploy_via, :copy
+set :deploy_via, :remote_cache
 set :use_sudo, false
 set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules", "Capfile", "config/deploy.rb"]
 server "50.17.210.146",:app, :web, :db, :primary => true
