@@ -1,3 +1,3 @@
 <?php
-echo "Test Capistrano first draft with all managers";
-?>
+echo "Test Capistrano test with Shilpa";
+?>co
